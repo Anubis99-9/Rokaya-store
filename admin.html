@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rokaya Store - Admin</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="brand">لوحة تحكم Rokaya Store</div><nav><a href="index.html">المتجر</a></nav></header>
+<main class="admin">
+<h1>إدارة المتجر</h1>
+<div class="panel">
+<label>اسم المتجر<input id="storeName"></label>
+<label>رقم واتساب<input id="whatsapp" placeholder="مثال: 961XXXXXXXX"></label>
+<label>رابط Instagram<input id="instagram"></label>
+<label>رابط TikTok<input id="tiktok"></label>
+<button id="save">حفظ الإعدادات</button>
+</div>
+<div class="panel">
+<h2>إضافة منتج</h2>
+<label>اسم المنتج<input id="pname"></label>
+<label>السعر<input id="price" type="number"></label>
+<label>الصورة<input id="image" placeholder="رابط الصورة"></label>
+<button id="add">إضافة المنتج</button>
+</div>
+<div id="status"></div>
+</main>
+<script src="admin.js"></script>
+</body>
+</html>
