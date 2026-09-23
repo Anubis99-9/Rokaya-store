@@ -4,7 +4,22 @@
 
 ## الملفات
 - `index.html` واجهة المتجر
-- `admin.html` لوحة التحكم
+- `admin.html:<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>تسجيل الدخول</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>تسجيل الدخول للوحة التحكم</h2>
+  <form action="/login" method="POST">
+    <input type="text" name="omarakkari" placeholder="omarakkari" required>
+    <input type="password" name="password" placeholder="omar71818030akkari" required>
+    <button type="submit">دخول</button>
+  </form>
+</body>
+</html> لوحة التحكم
 - `app.js` وظائف المتجر
 - `admin.js` وظائف لوحة التحكم
 - `style.css` التصميم
